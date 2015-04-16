@@ -48,13 +48,13 @@
     <ul class="left" id="ep_tm_menu">
         <li class="active"><a href="/eureka">Home</a></li>
 		<li><a href="/eureka/latest">Latest Additions</a></li>
-		<li><a href="#">Copyright</a></li>
-		<li><a href="http://eureka.bodleian.ox.ac.uk/information.html">Information</a></li>
-		<li><a href="http://eureka.bodleian.ox.ac.uk/faq.html">FAQs</a></li>
+		<li><a href="/eureka/copyright/">Copyright</a></li>
 		<li><a href="search.html">Search</a></li>
 		<li><a href="http://eureka.bodleian.ox.ac.uk/browse.html">Browse</a></li>
+		<li><a href="http://eureka.bodleian.ox.ac.uk/information.html">Information</a></li>
+		<li><a href="http://eureka.bodleian.ox.ac.uk/faq.html">FAQs</a></li>
 		<!-- <li><a href="{$config{http_url}}/view/subjects">Browse by Subject</a></li> -->
-		<li><a href="http://eureka.bodleian.ox.ac.uk/contact.html">Contact</a></li>
+		<li><a href="/eureka/about/">About</a></li>
     </ul>
     <!-- Right Nav Section -->
     <ul class="right">
@@ -89,6 +89,7 @@
           <div class="row collapse">
             <div class="small-8 columns">
               <input tabindex="1" id="autocomplete" type="search" placeholder="Simple search" autocomplete="off">
+              <p><a href="#" style="text-decoration: underline;">Advanced Search&hellip;</a></p>
             </div>
             <div class="small-4 columns">
               <a href="#" class="button tiny"><i class="fi-magnifying-glass" style="font-size: 1.3em;"></i></a>
@@ -101,7 +102,7 @@
       <li class="heading">Browse by</li>
 
       <li><a href="#" data-search=""><span class="label round">Year</span></a></li>
-      <li><a href="#" data-search=""><span class="label round">Faculty or Centre</span></a></li>
+      <li><a href="#" data-search=""><span class="label round">Subject</span></a></li>
       <li><a href="#" data-search=""><span class="label round">Saïd Business School Author</span></a></li>
       <li><a href="#" data-search=""><span class="label round">All Authors</span></a></li>
       <li><a href="#" data-search=""><span class="label round">Paper Type</span></a></li>
@@ -131,7 +132,7 @@
   <!-- -->
 <ul class="tabs" data-tab>
   <li class="tab-title active"><a href="#panel2-1">All Publication Types</a></li>
-  <li class="tab-title"><a href="#panel2-2">Working Papers</a></li>
+  <li class="tab-title"><a href="#panel2-2">SBS Research Paper Series</a></li>
 </ul>
 <div class="tabs-content">
   <div class="content active" id="panel2-1">
@@ -153,7 +154,7 @@
   					</tbody>
 				</table>
 				<p>
-				<a href="/eureka/recent"><strong>Show all</strong></a>
+				<a href="/eureka/recent"><strong>More&hellip;</strong></a>
 				</p>
   </div>
   <div class="content" id="panel2-2">
@@ -190,21 +191,10 @@
   <div class="large-9 medium-8 columns">
   
       	<div class="panel">
-      		<h3 id="why">About Eureka</h3>
       		<img class="montage" alt="" src="img/montage.jpg">
-	        <p>Eureka is the <a href="http://www.bodleian.ox.ac.uk/business">Sainsbury Library</a>'s online repository for the <a href="http://www.sbs.ox.ac.uk">Saïd Business School</a>. It is based on <a href="http://www.eprints.org/software/">EPrints</a> and provides an online archive of the School's research and teaching output. Further details about the repository and its benefits for you are on the <a href="http://eureka.sbs.ox.ac.uk/information.html" target="_blank">Information</a> page.</p>
-    		<p>A guide to depositing items with Eureka is available <a href="http://www.bodleian.ox.ac.uk/__data/assets/pdf_file/0014/111155/Eureka.pdf" target="_blank">here.</a></p>
-      	</div>
+	             	</div>
       		
-      	<div class="panel">			
-			<h3 id="test">Copyright Information</h3>
-			<p>Before making the full text available through Eureka it is essential that you check the agreement that you have with your publisher. Publishing agreements often assign ownership of copyright to the publisher. However many publishers will now allow authors the right to make their publications available in an institutional repository in their author created, post-refereed version rather than the publisher's own PDF. However, you may find that your publisher has imposed an embargo period (e.g. 6 months) before your material can be made available on the repository.</p>
-        	<p>The <a href="http://www.sherpa.ac.uk/romeo/" target="_blank">Sherpa Romeo website</a> provides a list of those publishers that allow their PDFs to be used in repositories.</p>
-        	<p>If you are in any doubt as to whether you have permission to submit the full text of your material in Eureka please contact the Sainsbury Library and we will investigate this for you.</p>
-        	<p>The submission of your material to Eureka will not affect your intellectual property rights and Eureka will only make the material freely available in its original format.</p>
 
-      	</div>
-    
 
             
       </div>
@@ -218,14 +208,12 @@
              <ul class="footer-links">
 			<li><a href="http://eureka.bodleian.ox.ac.uk">Home</a></li>
 			<li><a href="http://eureka.bodleian.ox.ac.uk/cgi/latest">Latest Additions</a></li>
-			<li><a href="#">Copyright</a></li>
-			<li><a href="http://eureka.bodleian.ox.ac.uk/information.html">Information</a></li>
-			<li><a href="http://eureka.bodleian.ox.ac.uk/faq.html">FAQs</a></li>
 			<li><a href="http://eureka.bodleian.ox.ac.uk/cgi/search/simple">Search</a></li>
 			<li><a href="http://eureka.bodleian.ox.ac.uk/browse.html">Browse</a></li>
-			<li><a href="http://eureka.bodleian.ox.ac.uk/contact.html">Contact</a></li>
-			<li><a href="http://eureka.bodleian.ox.ac.uk/cgi/latest_tool?output=RSS2">RSS<i class="fi-rss" style="margin-left:2px;"></i></a></li>
-			<li><a href="#">Cookies</a></li>
+			<li><a href="/eureka/copyright/">Copyright</a></li>
+			<li><a href="http://eureka.bodleian.ox.ac.uk/information.html">Information</a></li>
+			<li><a href="http://eureka.bodleian.ox.ac.uk/faq.html">FAQs</a></li>
+			<li><a href="/eureka/about/">About</a></li>
        </ul>
        <p class="copyright">Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script><noscript>2014</noscript>, <a href="http://www.sbs.ox.ac.uk">Saïd Business School</a>, <a href="http://www.ox.ac.uk">University of Oxford</a>, All Rights Reserved.</p>      </div>
     </div>
