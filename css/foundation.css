@@ -1101,7 +1101,7 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #007167;
+  background-color: #002246;
   border-color: #005a52;
   color: white;
   transition: background-color 300ms ease-out; }
@@ -1166,7 +1166,7 @@ button, .button {
   button.round, .button.round {
     border-radius: 1000px; }
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
-    background-color: #007167;
+    background-color: #002246;
     border-color: #005a52;
     color: white;
     cursor: default;
@@ -1177,7 +1177,7 @@ button, .button {
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
       color: white; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #007167; }
+      background-color: #002246; }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
       background-color: #f9f9f9;
       border-color: #c7c7c7;
@@ -1372,7 +1372,7 @@ meta.foundation-mq-topbar {
         font-size: 0.8125rem;
         padding-right: 15px;
         padding-left: 15px;
-        background-color: #007167;
+        background-color: #002246;
         border-color: #005a52;
         color: white; }
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
@@ -1407,7 +1407,7 @@ meta.foundation-mq-topbar {
       font-size: 0.8125rem;
       padding-right: 15px;
       padding-left: 15px;
-      background-color: #007167;
+      background-color: #002246;
       border-color: #005a52;
       color: white; }
       .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
@@ -1443,10 +1443,10 @@ meta.foundation-mq-topbar {
       background: #272727;
       color: white; }
     .top-bar-section ul li.active > a {
-      background: #007167;
+      background: #002246;
       color: white; }
       .top-bar-section ul li.active > a:hover {
-        background: #006159;
+        background: #344e6b;
         color: white; }
   .top-bar-section .has-form {
     padding: 15px; }
@@ -1575,9 +1575,9 @@ meta.foundation-mq-topbar {
       padding: 0 15px;
       line-height: 45px;
       color: white;
-      background: #007167; }
+      background: #002246; }
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-        background: #006159; }
+        background: #344e6b; }
     .top-bar-section .has-dropdown > a {
       padding-right: 35px !important; }
       .top-bar-section .has-dropdown > a:after {
@@ -1665,7 +1665,7 @@ meta.foundation-mq-topbar {
     background: #272727;
     color: white; }
   .no-js .top-bar-section ul li:active > a {
-    background: #007167;
+    background: #002246;
     color: white; }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     display: block;
@@ -1692,11 +1692,11 @@ meta.foundation-mq-topbar {
     font-size: 0.6875rem;
     line-height: 0.6875rem;
     text-transform: uppercase;
-    color: #007167; }
+    color: #002246; }
     .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
       text-decoration: underline; }
     .breadcrumbs > * a {
-      color: #007167; }
+      color: #002246; }
     .breadcrumbs > *.current {
       cursor: default;
       color: #333333; }
@@ -1734,8 +1734,8 @@ meta.foundation-mq-topbar {
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
   font-size: 0.8125rem;
   transition: opacity 300ms ease-out;
-  background-color: #007167;
-  border-color: #006159;
+  background-color: #002246;
+  border-color: #344e6b;
   color: white; }
   .alert-box .close {
     font-size: 1.375rem;
@@ -1949,7 +1949,7 @@ meta.foundation-mq-topbar {
       .panel.callout h1.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout h4.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
         line-height: 1.4; }
     .panel.callout a:not(.button) {
-      color: #007167; }
+      color: #002246; }
   .panel.radius {
     border-radius: 3px; }
 
@@ -2120,7 +2120,7 @@ div.icon-bar {
       width: 1.875rem;
       height: 1.875rem; }
   div.icon-bar > *:hover {
-    background: #007167; }
+    background: #002246; }
   div.icon-bar > * label {
     color: white; }
   div.icon-bar > * i {
@@ -2305,11 +2305,11 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #007167;
+  color: #002246;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
-    color: #006159; }
+    color: #344e6b; }
   a img {
     border: none; }
 
@@ -2696,12 +2696,12 @@ ul.pagination {
     ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus {
       background: transparent; }
     ul.pagination li.current a {
-      background: #007167;
+      background: #002246;
       color: white;
       font-weight: bold;
       cursor: default; }
       ul.pagination li.current a:hover, ul.pagination li.current a:focus {
-        background: #007167; }
+        background: #002246; }
   ul.pagination li {
     float: left;
     display: block; }
@@ -2725,7 +2725,7 @@ ul.pagination {
     font-size: 0.875rem; }
     .side-nav li a:not(.button) {
       display: block;
-      color: #007167;
+      color: #002246;
       margin: 0;
       padding: 0.4375rem 0.875rem; }
       .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
@@ -2742,7 +2742,7 @@ ul.pagination {
       list-style: none;
       border-top-color: white; }
     .side-nav li.heading {
-      color: #007167;
+      color: #002246;
       font-size: 0.875rem;
       font-weight: bold;
       text-transform: uppercase; }
@@ -2991,7 +2991,7 @@ dialog[open] {
   color: #333333; }
   .has-tip:hover, .has-tip:focus {
     border-bottom: dotted 1px #00332e;
-    color: #007167; }
+    color: #002246; }
   .has-tip.tip-left, .has-tip.tip-right {
     float: none !important; }
 
@@ -3027,7 +3027,7 @@ dialog[open] {
     .tooltip.round > .nub {
       left: 2rem; }
   .tooltip.opened {
-    color: #007167 !important;
+    color: #002246 !important;
     border-bottom: dotted 1px #00332e !important; }
 
 .tap-to-close {
@@ -3236,7 +3236,7 @@ dialog[open] {
   padding: 0.125rem;
   margin-bottom: 0.625rem; }
   .progress .meter {
-    background: #007167;
+    background: #002246;
     height: 100%;
     display: block; }
   .progress.secondary .meter {
@@ -3296,14 +3296,14 @@ dialog[open] {
     .sub-nav li.active a {
       border-radius: 3px;
       font-weight: normal;
-      background: #007167;
+      background: #002246;
       padding: 0.1875rem 1rem;
       cursor: default;
       color: white; }
       .sub-nav dt.active a:hover,
       .sub-nav dd.active a:hover,
       .sub-nav li.active a:hover {
-        background: #006159; }
+        background: #344e6b; }
 
 /* Foundation Joyride */
 .joyride-list {
@@ -3469,7 +3469,7 @@ dialog[open] {
   margin-bottom: inherit;
   padding: 0.25rem 0.5rem 0.375rem;
   font-size: 0.6875rem;
-  background-color: #007167;
+  background-color: #002246;
   color: white; }
   .label.radius {
     border-radius: 3px; }
@@ -4387,7 +4387,7 @@ label.error {
     background: #fafafa;
     border-radius: 3px; }
     .range-slider.radius .range-slider-handle {
-      background: #007167;
+      background: #002246;
       border-radius: 3px; }
       .range-slider.radius .range-slider-handle:hover {
         background: #00635b; }
@@ -4395,7 +4395,7 @@ label.error {
     background: #fafafa;
     border-radius: 1000px; }
     .range-slider.round .range-slider-handle {
-      background: #007167;
+      background: #002246;
       border-radius: 1000px; }
       .range-slider.round .range-slider-handle:hover {
         background: #00635b; }
@@ -4404,7 +4404,7 @@ label.error {
     cursor: default;
     opacity: 0.7; }
     .range-slider.disabled .range-slider-handle, .range-slider[disabled] .range-slider-handle {
-      background: #007167;
+      background: #002246;
       cursor: default;
       opacity: 0.7; }
       .range-slider.disabled .range-slider-handle:hover, .range-slider[disabled] .range-slider-handle:hover {
@@ -4425,7 +4425,7 @@ label.error {
   height: 1.375rem;
   border: 1px solid none;
   cursor: pointer;
-  background: #007167; }
+  background: #002246; }
   .range-slider-handle:hover {
     background: #00635b; }
 
@@ -4795,7 +4795,7 @@ div.switch label:after {
   -moz-transition: left 0.15s ease-out;
   transition: left 0.15s ease-out; }
 div.switch input:checked + label {
-  background: #007167; }
+  background: #002246; }
 div.switch input:checked + label:after {
   left: 2.25rem; }
 div.switch label {
@@ -4812,7 +4812,7 @@ div.switch label {
 div.switch label:after {
   background: white; }
 div.switch input:checked + label {
-  background: #007167; }
+  background: #002246; }
 div.switch.large label {
   width: 5rem;
   height: 2.5rem; }
