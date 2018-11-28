@@ -296,3 +296,8 @@ div[epsection=oracheck_container] {display: none}
 
 /* Fix keyword view 2018-07-19 */
 .ep_view_page > p {position: static;}
+
+/* School Branding colour changes - JP 2018-11-28 */ 
+#ep_latest_tab_0 a {background-color: #002246 !important; border-bottom: 1px #002246 solid !important;}
+ul.ep_tab_bar > li.ep_tab_selected::before, ul.ep_tab_bar > li.ep_tab_selected:hover::before {border-left: 15px solid #002246 !important;}
+a, a:visited, a:hover {color: #002246 !important;}
