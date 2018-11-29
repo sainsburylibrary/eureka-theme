@@ -298,6 +298,8 @@ div[epsection=oracheck_container] {display: none}
 .ep_view_page > p {position: static;}
 
 /* School Branding colour changes - JP 2018-11-28 */ 
-#ep_latest_tab_0 a {background-color: #002246 !important; border-bottom: 1px #002246 solid !important;}
+#ep_latest_tab_0.ep_tab_selected a, #ep_latest_tab_1.ep_tab_selected a {background-color: #002246 !important; border-bottom: 1px #002246 solid !important;}
 ul.ep_tab_bar > li.ep_tab_selected::before, ul.ep_tab_bar > li.ep_tab_selected:hover::before {border-left: 15px solid #002246 !important;}
-/* a, a:visited, a:hover {color: #002246 !important;} */
+table a, table:visited a, table a:hover, p a, p:visited a, p a:hover  {color: #002246}
+.footer-links a, .footer-links a:visited, .footer-links a:hover, .copyright a, .copyright a:visited, .copyright a:hover {color: #002246}
+/* a, a:visited, a:hover {color: #002246 !important;} */ 
