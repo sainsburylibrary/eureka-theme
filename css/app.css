@@ -297,8 +297,13 @@ div[epsection=oracheck_container] {display: none}
 /* Fix keyword view 2018-07-19 */
 .ep_view_page > p {position: static;}
 
-/* School Branding colour changes - JP 2018-11-28 */ 
+/* School Branding colour changes and auto CSS overrides - 2018-11-28 */ 
 ul#ep_latest_tabs.ep_tab_bar li.ep_tab_selected a, ul#ep_admin_tabs_tabs.ep_tab_bar li.ep_tab_selected a {background-color: #002246 !important; border-bottom: 1px #002246 solid !important;}
 ul.ep_tab_bar > li.ep_tab_selected::before, ul.ep_tab_bar > li.ep_tab_selected:hover::before {border-left: 15px solid #002246 !important;}
-table a, table:visited a, table a:hover, p a, p:visited a, p a:hover  {color: #002246}
-.footer-links a, .footer-links a:visited, .footer-links a:hover, .copyright a, .copyright a:visited, .copyright a:hover {color: #002246}
+table > tbody > tr > td > a, table > tbody > tr > td > a, table > tbody > tr > td > a:hover, p a, p:visited a, p a:hover  {color: #002246 !important;}
+.footer-links a, .footer-links a:visited, .footer-links a:hover, .copyright a, .copyright a:visited, .copyright a:hover {color: #002246 !important;}
+form#template_simple_search p a, form#template_simple_search p a:visited, form#template_simple_search p a:hover {color: #002246 !important;}
+div.ep_page a, div.ep_page a:hover, div.ep_page a:visited {color: #002246 !important;}
+div.ep_only_js a.button {color: white !important;}
+div.ep_summary_box_title {background-color:#E9E3DA !important; border-color:#ccc !important;}
+input.ep_form_action_button {background-color: #002246 !important; border: 1px solid #002246 !important;}
